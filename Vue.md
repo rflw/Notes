@@ -1,6 +1,6 @@
 # Vue
 
-### Events
+### Bind Events
 
 ```html
 <button @click="increase(2, $event)">...</button>
