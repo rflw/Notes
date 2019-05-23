@@ -44,3 +44,10 @@ new Vue({
 // starts the `alert` function after pressing the enter key
 <input type="text" @keyup.enter="alert">
 ```
+
+### Two way data binding
+
+```html
+<input v-model="message" placeholder="edit me">
+<p>Message is: {{ message }}</p>
+```
