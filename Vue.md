@@ -11,7 +11,7 @@
 
 Modify component value
 
-```
+```html
 new Vue({
   el: '#loremIpsum',
   data: {
