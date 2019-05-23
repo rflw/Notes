@@ -6,6 +6,14 @@
 <button @click="increase(2, $event)">...</button>
 ```
 
+### Access to DOM event
+
+```html
+<button v-on:click="warn('Form cannot be submitted yet.', $event)">
+  Submit
+</button>
+```
+
 ### Event Modifiers
 
 ```html
