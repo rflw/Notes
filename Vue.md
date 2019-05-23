@@ -48,6 +48,6 @@ new Vue({
 ### Two way data binding
 
 ```html
-<input v-model="message" placeholder="edit me">
+<input type="text" v-model="message" placeholder="edit me">
 <p>Message is: {{ message }}</p>
 ```
