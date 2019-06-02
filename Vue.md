@@ -52,7 +52,7 @@ new Vue({
 <p>Message is: {{ message }}</p>
 ```
 
-### `v-if` and `v-show`
+### v-if vs v-show
 
 - `v-if`:
   - detach/attach DOM element
