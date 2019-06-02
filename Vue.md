@@ -62,3 +62,24 @@ new Vue({
   - only toggles `display` property (element is always rendered)
   - doesn't have `else`
   - can't be used with `<template>`
+
+### Rendering lists (v-for) and getting index
+
+```html
+<!-- ... -->
+<li v-for="(item, index) in items">
+  {{ index }} - {{ item.message }}
+</li>
+<!-- ... -->
+```
+
+```js
+//...
+data: {
+  items: [
+    { message: 'Foo' },
+    { message: 'Bar' }
+  ]
+}
+//...
+```
