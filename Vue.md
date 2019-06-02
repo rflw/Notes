@@ -94,3 +94,11 @@ data: {
   {{ index }} - {{ key }}: {{ value }}
 </div>
 ```
+
+### Looping range
+
+```html
+<div>
+  <span v-for="n in 10">{{ n }} </span>
+</div>
+```
