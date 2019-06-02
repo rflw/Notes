@@ -90,7 +90,7 @@ data: {
 ### Looping through Objects
 
 ```html
-<div v-for="(value, key) in object">
-  {{ key }}: {{ value }}
+<div v-for="(value, key, index) in object">
+  {{ index }} - {{ key }}: {{ value }}
 </div>
 ```
