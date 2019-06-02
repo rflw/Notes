@@ -66,9 +66,16 @@ new Vue({
 ### Rendering lists (v-for) and getting index
 
 ```html
-<li v-for="(item, index) in items">
-  {{ index }} - {{ item.message }}
-</li>
+<ul>
+  <li v-for="(item, index) in items">
+    {{ index }} - {{ item.message }}
+  </li>
+</ul>
+
+<!-- template'll generate not nested divs -->
+<template v-for="(item, index) in items">
+  <div>{{ index }} - {{ item.message }}</div>
+</template>
 ```
 
 ```js
