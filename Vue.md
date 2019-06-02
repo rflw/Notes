@@ -66,20 +66,16 @@ new Vue({
 ### Rendering lists (v-for) and getting index
 
 ```html
-<!-- ... -->
 <li v-for="(item, index) in items">
   {{ index }} - {{ item.message }}
 </li>
-<!-- ... -->
 ```
 
 ```js
-//...
 data: {
   items: [
     { message: 'Foo' },
     { message: 'Bar' }
   ]
 }
-//...
 ```
