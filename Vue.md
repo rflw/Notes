@@ -51,3 +51,14 @@ new Vue({
 <input type="text" v-model="message" placeholder="edit me">
 <p>Message is: {{ message }}</p>
 ```
+
+### `v-if` and `v-show`
+
+- `v-if`:
+  - detach/attach DOM element
+  - can be used with `<template>`
+  
+- `v-show`:
+  - only toggles `display` property (element is always rendered)
+  - doesn't have `else`
+  - can't be used with `<template>`
